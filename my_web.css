@@ -184,6 +184,7 @@
     .marg21 {
         position: absolute;
         margin-left: 400px;
+        z-index: 2;
     }
     
     .marg22 {
