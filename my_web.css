@@ -67,7 +67,7 @@ a.num7 {
 }
 
 a.num7:hover {
-    background-color: #4095c6;
+    background-color: lime;
 }
 
 .num6 {
@@ -198,7 +198,23 @@ a.num7:hover {
     position: absolute;
     margin-top: 2px;
     margin-left: 880px;
-    color: red
+    color: red;
+}
+
+@keyframes blink {
+    40% {
+        opacity: 0
+    }
+    40% {
+        opacity: 0
+    }
+    50% {
+        opacity: 1
+    }
+}
+
+blink {
+    animation: blink 1s infinite;
 }
 
 .marg18 {
