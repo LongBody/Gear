@@ -1,267 +1,289 @@
-    .content {
-        display: flex;
-        font-size: 25px;
-    }
-    
-    .num1 {
-        background-color: darkgrey;
-        width: 100%;
-        height: 150px;
-        position: absolute;
-    }
-    
-    .num2 {
-        width: 200px;
-        height: 150px;
-        position: absolute;
-    }
-    
-    .num3 {
-        background-color: darkgrey;
-        width: 200px;
-        height: 100vh;
-        margin-top: 150px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 20px;
-    }
-    
-    .num3 li {
-        list-style-type: none;
-        cursor: pointer;
-    }
-    
-    .num4 {
-        font-size: 20px;
-    }
-    
-    .num3 li:hover {
-        color: white;
-    }
-    
-    .num5 {
-        margin-left: 75px;
-        background-color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline block;
-        font-size: 16px;
-        cursor: pointer;
-    }
-    
-    .num5 li :hover {
-        background-color: : black;
-    }
-    
-    .marg1 {
-        position: absolute;
-        margin-top: 117px;
-        margin-left: 227px;
-        z-index: 1;
-    }
-    
-    .marg2 {
-        position: absolute;
-        margin-top: 122px;
-        margin-left: 260px;
-        z-index: 1;
-    }
-    
-    .marg3 {
-        position: absolute;
-        margin-top: 122px;
-        margin-left: 417px;
-        z-index: 1;
-    }
-    
-    .marg0 {
-        position: absolute;
-        margin-top: 122px;
-        margin-left: 603px;
-        z-index: 1;
-    }
-    
-    .marg4 {
-        position: absolute;
-        margin-top: 122px;
-        margin-left: 850px;
-        z-index: 1;
-    }
-    
-    .marg5 {
-        position: absolute;
-        margin-top: 122px;
-        margin-left: 1000px;
-        z-index: 1;
-    }
-    
-    .marg6 {
-        position: absolute;
-        margin-top: 122px;
-        margin-left: 1100px;
-        z-index: 1;
-    }
-    
-    .marg7 {
-        position: absolute;
-        margin-top: 122px;
-        margin-left: 1200px;
-        z-index: 1;
-    }
-    
-    .marg8 {
-        position: absolute;
-        margin-top: 122px;
-        margin-left: 1300px;
-        z-index: 1;
-    }
-    
-    .marg9 {
-        position: absolute;
-        margin-top: 122px;
-        margin-left: 1400px;
-        z-index: 1;
-    }
-    
-    .marg10 {
-        position: absolute;
-        margin-top: 122px;
-        margin-left: 1500px;
-        z-index: 1;
-    }
-    
-    .marg11 {
-        position: absolute;
-        margin-top: 10px;
-        margin-left: 230px;
-        z-index: 1;
-    }
-    
-    .marg12 {
-        position: absolute;
-        margin-top: 10px;
-        margin-left: 840px;
-        z-index: 1;
-    }
-    
-    .marg13 {
-        position: absolute;
-        margin-top: 10px;
-        margin-left: 1400px;
-        z-index: 1;
-    }
-    
-    .marg14 {
-        position: absolute;
-        margin-top: 500px;
-        margin-left: 230px;
-        z-index: 1;
-    }
-    
-    .marg15 {
-        position: absolute;
-        margin-top: 500px;
-        margin-left: 840px;
-        z-index: 1;
-    }
-    
-    .marg16 {
-        position: absolute;
-        margin-top: 500px;
-        margin-left: 1400px;
-        z-index: 1;
-    }
-    
-    .marg17 {
-        position: absolute;
-        margin-top: 2px;
-        margin-left: 880px;
-        color: red
-    }
-    
-    .marg18 {
-        position: absolute;
-        margin-left: 350px;
-        margin-top: -150px
-    }
-    
-    .marg19 {
-        position: absolute;
-        margin-top: 70px
-    }
-    
-    .marg20 {
-        position: absolute;
-        margin-left: 1100px;
-        margin-top: -150px
-    }
-    
-    .marg21 {
-        position: absolute;
-        margin-left: 400px;
-        z-index: 2;
-    }
-    
-    .marg22 {
-        position: absolute;
-        margin-left: 1620px;
-        margin-top: 122px;
-    }
-    
-    .marg23 {
-        position: absolute;
-        margin-left: 1650px;
-        font-size: 20px;
-    }
-    
-    .pic {
-        width: 300px;
-        height: 300px;
-        object-fit: cover;
-    }
-    
-    .pic1 {
-        width: 300px;
-        height: 300px;
-        object-fit: cover;
-    }
-    
-    .pic2 {
-        width: 300px;
-        height: 300px;
-        object-fit: cover;
-    }
-    
-    .pic3 {
-        width: 300px;
-        height: 300px;
-        object-fit: cover;
-    }
-    
-    .pic4 {
-        width: 300px;
-        height: 300px;
-        object-fit: cover;
-    }
-    
-    .pic5 {
-        width: 300px;
-        height: 300px;
-        object-fit: cover;
-    }
-    
-    .price1 {
-        margin-left: 50px;
-    }
-    
-    .price2 {
-        margin-left: 85px;
-    }
-    
-    .price3 {
-        margin-left: 103px;
-    }
-    
-    .price4 {
-        margin-left: 130px;
-    }
+.content {
+    display: flex;
+    font-size: 25px;
+}
+
+.num1 {
+    background-color: azure;
+    width: 100%;
+    height: 150px;
+    position: absolute;
+}
+
+.num2 {
+    width: 200px;
+    height: 150px;
+    position: absolute;
+}
+
+.num3 {
+    background-color: darkgrey;
+    width: 200px;
+    height: 100vh;
+    margin-top: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.num3 li {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.num4 {
+    font-size: 20px;
+}
+
+.num3 li:hover {
+    color: white;
+}
+
+a.num5 {
+    margin-left: 58px;
+    background-color: #4eb5f1;
+    padding: 8px 18px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display: inline block;
+    font-size: 16px;
+    cursor: pointer;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    transition: all 0.15s;
+}
+
+a.num5:hover {
+    background-color: red;
+}
+
+a.num7 {
+    margin-left: 5px;
+    background-color: red;
+    padding: 8px 18px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+a.num7:hover {
+    background-color: #4095c6;
+}
+
+.num6 {
+    width: 25px;
+    height: 30px;
+}
+
+.marg1 {
+    position: absolute;
+    margin-top: 117px;
+    margin-left: 227px;
+    z-index: 1;
+}
+
+.marg2 {
+    position: absolute;
+    margin-top: 122px;
+    margin-left: 260px;
+    z-index: 1;
+}
+
+.marg3 {
+    position: absolute;
+    margin-top: 122px;
+    margin-left: 417px;
+    z-index: 1;
+}
+
+.marg0 {
+    position: absolute;
+    margin-top: 122px;
+    margin-left: 603px;
+    z-index: 1;
+}
+
+.marg4 {
+    position: absolute;
+    margin-top: 122px;
+    margin-left: 850px;
+    z-index: 1;
+}
+
+.marg5 {
+    position: absolute;
+    margin-top: 122px;
+    margin-left: 1000px;
+    z-index: 1;
+}
+
+.marg6 {
+    position: absolute;
+    margin-top: 122px;
+    margin-left: 1100px;
+    z-index: 1;
+}
+
+.marg7 {
+    position: absolute;
+    margin-top: 122px;
+    margin-left: 1200px;
+    z-index: 1;
+}
+
+.marg8 {
+    position: absolute;
+    margin-top: 122px;
+    margin-left: 1300px;
+    z-index: 1;
+}
+
+.marg9 {
+    position: absolute;
+    margin-top: 122px;
+    margin-left: 1400px;
+    z-index: 1;
+}
+
+.marg10 {
+    position: absolute;
+    margin-top: 122px;
+    margin-left: 1500px;
+    z-index: 1;
+}
+
+.marg11 {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 230px;
+    z-index: 1;
+}
+
+.marg12 {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 840px;
+    z-index: 1;
+}
+
+.marg13 {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 1400px;
+    z-index: 1;
+}
+
+.marg14 {
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 230px;
+    z-index: 1;
+}
+
+.marg15 {
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 840px;
+    z-index: 1;
+}
+
+.marg16 {
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 1400px;
+    z-index: 1;
+}
+
+.marg17 {
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 880px;
+    color: red
+}
+
+.marg18 {
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -150px
+}
+
+.marg19 {
+    position: absolute;
+    margin-top: 70px
+}
+
+.marg20 {
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: -150px
+}
+
+.marg21 {
+    position: absolute;
+    margin-left: 400px;
+    z-index: 2;
+}
+
+.marg22 {
+    position: absolute;
+    margin-left: 1620px;
+    margin-top: 122px;
+}
+
+.marg23 {
+    position: absolute;
+    margin-left: 1650px;
+    font-size: 20px;
+}
+
+.pic {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.pic1 {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.pic2 {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.pic3 {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.pic4 {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.pic5 {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.price1 {
+    margin-left: 50px;
+}
+
+.price2 {
+    margin-left: 85px;
+}
+
+.price3 {
+    margin-left: 103px;
+}
+
+.price4 {
+    margin-left: 130px;
+}
