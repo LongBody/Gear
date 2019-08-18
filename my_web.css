@@ -47,8 +47,8 @@ a.num5 {
     display: inline block;
     font-size: 16px;
     cursor: pointer;
-    color: #FFFFFF;
     box-sizing: border-box;
+    color: #FFFFFF;
     transition: all 0.15s;
 }
 
@@ -62,12 +62,12 @@ a.num7 {
     padding: 8px 18px;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    cursor: pointer;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 a.num7:hover {
-    background-color: lime;
+    background-color: gray;
 }
 
 .num6 {
